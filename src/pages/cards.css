@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --light:#f6f6f9;
+--primary:#1976d2;
+--light-primary:#cfe8ff;
+--grey:#fff;
+--dark-grey:#aaaaaa;
+--dark:#363949;
+--danger:#d32f2f;
+--light-danger:#fecdd3;
+--warning:#fbc02d;
+--light-warning:#388e3c;
+--success:#00ff2f;
+--light-success:#bbf7d0;    
+}
+.cards{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(240px,1fr));
+    grid-gap: 1.5rem;
+    padding: 2rem;
+}
+.cards li{
+    padding: 1.8rem;
+    background: var(--light);
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    cursor: pointer;
+    transition: all 0.3s ease-in;
+}
+.cards li:hover{
+    transform: translateY(-10px)
+}
+.cards li .bx{
+    width: 4.5rem;
+    height: 4.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    font-size: 36px ;
+}
+.cards li:nth-child(1) .bx{
+    background: var(--light-primary);
+    color: var(--primary);
+}
+.cards li:nth-child(2) .bx{
+    background: var(--light-danger);
+    color: var(--danger);
+}
+.cards li:nth-child(3) .bx{
+    background: var(--light-success);
+    color: var(--success);
+}
+.cards li .info h3{
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: var(--dark);
+}
+.cards li .info p{
+    color: var(--dark);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

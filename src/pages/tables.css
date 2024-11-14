@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* thead tr th{
+    padding: 20px;
+} */
+ .body{
+    /* color: white; */
+    background: rgb(0, 170, 255);
+    border: 2px solid blue;
+ }
+.table_head{
+    margin-bottom: 20px;
+}
+.table_row th{
+    padding: 20px;
+   
+}

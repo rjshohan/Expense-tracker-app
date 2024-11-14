@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+/* body{
+    width: 1280px;
+} */
+ 
+table{
+    width: 100%;
+    min-height: 70vh;
+    font-size: 20px;
+}
+
+tbody{
+    text-align: center; 
+}
+
+.table_row{
+    background-color: red;
+}
+tr:nth-child(even){
+    background-color: #fff;
+}
+tr:nth-child(odd){
+    background-color: #ddd;
+}
